@@ -318,6 +318,5 @@ public class Program {
 		for (int i = 0; i < ex1.questions.length; i++) {
 			System.out.println(" " + ex1.questions[i].content);
 		}
-
 	}
 }

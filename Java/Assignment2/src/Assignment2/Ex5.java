@@ -50,8 +50,8 @@ public class Ex5 {
 		int departmentID = sc.nextInt();
 	}
 	public static void main(String[] args) throws ParseException {
+		
 //Q1
-		/*
 		int a,b,c;
 		System.out.println("Nhập vào ba số nguyên dương: ");
 		System.out.println("Số thứ 1: ");
@@ -113,7 +113,7 @@ public class Ex5 {
 				System.out.println("Mời nhập lại..Nhập 0 để out");
 			}	
 		}while(select != 0);
-*/
+
 //Q9
 	}
 }

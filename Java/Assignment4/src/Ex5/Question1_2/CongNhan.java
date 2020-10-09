@@ -36,7 +36,6 @@ public class CongNhan extends CanBo {
 	
 	@Override
 	public void hienThi() {
-		// TODO Auto-generated method stub
 		super.hienThi();
 		System.out.println("Level: "+ level);
 	}

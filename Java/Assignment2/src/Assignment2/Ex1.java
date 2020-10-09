@@ -1,6 +1,7 @@
 package Assignment2;
 import java.time.LocalDate;
 
+
 public class Ex1 {
 	public static void main(String[] args) {
 // Department
@@ -93,7 +94,7 @@ public class Ex1 {
 		gr3.accounts = accOfGroup3;
 		Account[] accounts = { acc1, acc2, acc3}; 
 		Department[] departments = { department1, department2, department3 };
-/*
+
 //IF
 //Q1
 		if (acc2.department.Name == null) {
@@ -295,6 +296,6 @@ public class Ex1 {
 			System.out.println(i);
 			i = i + 2;
 		}
-*/
+
 	}
 }
