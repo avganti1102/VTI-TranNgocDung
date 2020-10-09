@@ -79,13 +79,14 @@ public class UserReponsitory implements IUserReponsitory {
 		Connection con = jdbcUtils.connect();
 		//Create statement
 		Statement stm = con.createStatement();
-		String sql = "Select * from manager";
+		String sql = "Select * from manager where projectID is not null";
 		ResultSet rs = stm.executeQuery(sql);
 		while(rs.next()) {
 			Manager mng = new Manager();
 			mng.setId(rs.getInt("managerID"));
 			mng.setFullName(rs.getString("fullName"));
 			mng.setEmail(rs.getString("email"));
+			mng.setProjectID(rs.getInt("projectID"));
 			mng.setExpInYear(rs.getInt("ExpInYear"));
 			mngs.add(mng);
 		}

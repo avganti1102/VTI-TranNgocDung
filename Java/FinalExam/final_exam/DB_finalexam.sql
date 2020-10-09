@@ -34,4 +34,12 @@ ADD CONSTRAINT fk_employee_ProjectID
 FOREIGN KEY(projectID)
 
 REFERENCES Project(ProjectID); 
+
+ALTER TABLE manager
+
+ADD CONSTRAINT fk_manager_ProjectID
+
+FOREIGN KEY(projectID)
+
+REFERENCES Project(ProjectID); 
     
